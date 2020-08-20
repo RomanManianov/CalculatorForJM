@@ -50,7 +50,7 @@ public class DataGetter {
                 );
             }
 
-            String[] group = data.split("[+\\-*/]");  // Разбивает строку группы символов
+            String[] group = data.split("[+\\-*/]");  // Разбивает строку на группы символов
 
             checkRoman = romanNums.contains(group[0]);
 
