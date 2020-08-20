@@ -1,7 +1,6 @@
 import java.util.*;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
-import java.util.stream.Collectors;
 
 public class DataGetter {
     int num1;
@@ -13,7 +12,6 @@ public class DataGetter {
             "I", "II", "III", "IV", "V", "VI", "VII", "VIII", "IX", "X"));
 
     public void readData() {
-        System.out.println(romanNums);
         System.out.println(
                 "Введите выражение состоящее из двух целых римских или арабских чисел \n" +
                         "от 1 до 10, используя операторы: '+,-,*,/'\n" +
